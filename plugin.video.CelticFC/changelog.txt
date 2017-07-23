@@ -1,0 +1,6 @@
+Kodi [COLORgreen]C[/COLOR][COLORwhite]eltic[/COLOR][COLORyellow]FC[/COLOR] Addon Version 1.0.7
+
+Added sky sports scrape for celtic news videos. Cleaned up sections ready for new season, new fanart and icons 
+
+Updated fanart, cleaned up tunes section and lisbon lion section
+New release links to celtic games, Match Replays, Podcasts, Music and much more. Enjoy and Hail Hail

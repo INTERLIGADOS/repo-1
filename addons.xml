@@ -1302,11 +1302,11 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="repository.aresproject" name="[COLOR blue]A[/COLOR][COLOR white]res Project[/COLOR]" version="0.0.7" provider-name="Ares Team">
+<addon id="repository.aresproject" name="[COLOR blue]A[/COLOR][COLOR white]res Project[/COLOR]" version="0.0.8" provider-name="Ares Team">
 	<extension point="xbmc.addon.repository" name="AresRepo">
 		<info compressed="false">https://raw.githubusercontent.com/ares-fortress/repo/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/ares-fortress/repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/ares-fortress/repo/</datadir>
+		<datadir zip="true">https://raw.githubusercontent.com/ares-fortress/repo/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>AresProject.</summary>

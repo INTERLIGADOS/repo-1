@@ -1,48 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="script.module.requests"
-       name="requests"
-       version="2.12.4"
-       provider-name="kennethreitz, beenje">
-  <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary>Python HTTP for Humans</summary>
-    <description>Packed for KODI from https://github.com/kennethreitz/requests</description>
-    <platform>all</platform>
-    <language></language>
-    <license>Apache2</license>
-    <forum></forum>
-    <website>http://python-requests.org</website>
-    <source>https://github.com/beenje/script.module.requests</source>
-    <email>beenje AT gmail.com</email>
-  </extension>
-</addon>
-
-<addon id="plugin.video.wolves"
-	name="[COLORorange]W[/COLOR][COLORwhite]olverhampton Wanderers[/COLOR]"
-	version="1.0.0"
-	provider-name="Ares Project">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">A Mix of free content for Wolves FC fans</summary>
-    <description lang="en">Join us on the forum @ http://ares-project.uk</description>
-    <platform>all</platform>
-    <forum>n/a</forum>
-    <website>n/a</website>
-  </extension>
-</addon>
-
 <addon id="repository.colossus" name="[COLOR gold]Colossus Repository[/COLOR]" version="999.999.6" provider-name="Colossal">
     <extension point="xbmc.addon.repository" name="[COLOR gold]Colossus Repository[/COLOR]">
     <dir>
@@ -61,244 +18,29 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.aresfitness"
-	name="[COLOR blue]A[/COLOR][COLOR white]res Fitness[/COLOR]"
-	version="1.0.1"
-	provider-name="Shanks">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">A Collection of Stretches, Exercises, Fitness Videos, and More</summary>
-    <description lang="en">A seleection of videos on pre-workout stretching, exercises, videos from Fitness experts and more .. Hope you enjoy.. PoppaSmurf - Caret4ker - Automan  -  Shanks  -  Join us on the forum @ http://ares-project.uk</description>
-    <platform>all</platform>
-    <forum>http://ares-project.uk</forum>
-    <website>n/a</website>
-  </extension>
-</addon>
-
-<addon id="script.module.simple.downloader" name="Simple Downloader for xbmc plugins" provider-name="TheCollective" version="1.9.5">
+<addon id="script.module.liveresolver"
+     name="LiveResolver"
+     version="0.1.49"
+     provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.common.plugin.cache" version="2.5.0" />
-    <import addon="script.module.parsedom" version="2.5.1" />
-  </requires>
-  <extension library="default.py" point="xbmc.service" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Simple downloader for xbmc plugins.</summary>
-  </extension>
-  <extension library="lib" point="xbmc.python.module" />
-</addon>
-
-<addon id="script.module.beautifulsoup"
-       name="BeautifulSoup"
-       version="3.2.1"
-       provider-name="Leonard Richardson (leonardr@segfault.org)">
-  <requires>
-    <import addon="xbmc.python"
-    		version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary>HTML/XML parser for quick-turnaround applications like screen-scraping</summary>
-    <description>Beautiful Soup parses arbitrarily invalid SGML and provides a variety of methods and Pythonic idioms for iterating and searching the parse tree.</description>
-    <license>BSD</license>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.AresMotorSports"
-	name="[COLORblue]A[/COLOR][COLORwhite]res MotorSports[/COLOR]"
-	version="1.0.2"
-	provider-name="Ares Project">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">A Selection of motorsports/racing Content</summary>
-    <description lang="en">A Selection Of Mixed MotorSports content from free sources - Hope You Enjoy.. Poppa Smurf - Join us on the forum @ http://ares-project.uk</description>
-    <platform>all</platform>
-    <forum>n/a</forum>
-    <website>n/a</website>
-  </extension>
-</addon>
-
-<addon id="plugin.video.AresParanormal"
-	name="[COLORblue]A[/COLOR][COLORwhite]res Paranormal[/COLOR]"
-	version="1.0.2"
-	provider-name="Ares Project">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">A Selection of Paranormal, Supernatural and Ghost Story Documentaries</summary>
-    <description lang="en">A Selection Of Paranormal Documentaries from free sources - Hope You Enjoy.. Poppa Smurf - Caret4ker - Automan - Join us on the forum @ http://ares-project.uk</description>
-    <platform>all</platform>
-    <forum>n/a</forum>
-    <website>n/a</website>
-  </extension>
-</addon>
-
-<addon id="script.module.arrow"
-       name="arrow"
-       version="0.6.0"
-       provider-name="crsmithdev, Razzeee">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.dateutil" version="2.4.2"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary>Arrow: better dates and times for Python</summary>
-    <description>Packed for Kodi from https://github.com/crsmithdev/arrow</description>
-    <platform>all</platform>
-    <language></language>
-    <license>Apache2</license>
-    <forum></forum>
-    <website>http://crsmithdev.com/arrow/</website>
-    <source>https://github.com/Razzeee/script.module.arrow</source>
-    <email>beenje AT gmail.com</email>
-  </extension>
-</addon>
-
-<addon id="plugin.video.aresmagic"
-	name="[COLOR blue]A[/COLOR][COLOR white]res Magic[/COLOR]"
-	version="1.0.0"
-	provider-name="Shanks">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">A Collection of Magicians, Illusionists, and some great tutorials on how to perform your own magic.</summary>
-    <description lang="en">A Selection of Magic, Illusions, and more.. Hope you enjoy.. PoppaSmurf - Caret4ker - Automan  -  Shanks  -  Join us on the forum @ http://ares-project.uk</description>
-    <platform>all</platform>
-    <forum>n/a</forum>
-    <website>n/a</website>
-  </extension>
-</addon>
-
-<addon id="script.module.simplejson"
-       name="simplejson"
-       version="3.3.0"
-       provider-name="Martijn">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <language></language>
-    <summary lang="en">Simple, fast, extensible JSON encoder/decoder for Python</summary>
-    <description lang="en">Simple, fast, extensible JSON encoder/decoder for Python</description>
-    <disclaimer lang="en">Code taken from https://pypi.python.org/pypi/simplejson/</disclaimer>
-    <license>MIT License, Academic Free License v. 2.1</license>
-    <website>https://pypi.python.org/pypi/simplejson/</website>
-    <source>https://pypi.python.org/pypi/simplejson/</source>
-  </extension>
-</addon>
-
-<addon id="plugin.video.AresKungfu"
-	name="[COLOR blue]A[/COLOR][COLOR white]res Kung-Fu[/COLOR]"
-	version="1.0.1"
-	provider-name="Ares-Project">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">A massive mixed up selection of Kung-Fu movies and Content from everyones favourite sharing site.. Youtube</summary>
-    <description lang="en">Join us on the forum @ http://ares-project.uk</description>
-    <platform>all</platform>
-    <forum>n/a</forum>
-    <website>n/a</website>
-  </extension>
-</addon>
-
-<addon id="plugin.video.MyAnimasi"
-       name="[COLOR blue]My[/COLOR][COLOR red]Ani[/COLOR][COLOR green]ma[/COLOR][COLOR orange]si[/COLOR]"
-       version="5.0.0"
-       provider-name="nashadi">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-        <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-     <import addon="script.module.addon.common" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-<summary lang="en">kompilasi video animasi tempatan</summary>
-    <description lang="en">
-	Kompilasi animasi tempatan dan luar negara kegemaran tontonan kanak-kanak di Malaysia.
-	</description>
-	<disclaimer>Video Addon ini adalah percuma. Kompilasi video daripada sumber sedia ada youtube dan ripper tempatan yang disusun secara teratur bagi memudahkan tontonan.</disclaimer>
-    <email>k.kusanagi101@gmail.com</email>
-	<platform>all</platform>
-  </extension>
-</addon>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.addon.common" version="2.0.0" />
 
-<addon id="plugin.video.now_music" name="[COLOR blue]N[/COLOR]ow [COLOR red]M[/COLOR]usic"	version="2.0.8"	provider-name="Pulse Builds">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
   </requires>
-  <extension point="xbmc.python.pluginsource" library="pulse.py">
-    <provides>video</provides>
-  </extension>
+  <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Now Thats What I Call Music Collection</summary>
-    <description lang="en">All Content In This Addon Is Freely Available On The Internet</description>
-    <disclaimer lang="en">Please Use Genuine PULSE BUILDS Addons And Builds From Genuine Sources</disclaimer>
     <platform>all</platform>
-    <forum>n/a</forum>
-    <website>n/a</website>
+    <summary lang="en">Resolve common live video host URL's to be playable in XBMC/Kodi + find links embeded in sites.</summary>
+    <description lang="en"></description>
   </extension>
 </addon>
 
-<addon id="plugin.video.Ares-Indexer"
-       name="[COLOR blue]Ares[/COLOR][COLOR white]Indexer[/COLOR]"
-       version="1.0.0"
-       provider-name="Ares Project">
+<addon id="plugin.video.DCSports"
+       name="DC Sports"
+       version="1.1.7"
+       provider-name="DCSPORTS">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -320,9 +62,71 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en"> Indexs of Movies TV Shows and Music</summary>
-    <description lang="en">We Thank You All! Remember to check out our other addons.</description>
+    <summary lang="en">World Sports Addon</summary>
+    <description lang="en">World Sports Addon</description>
     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.pyamf"
+       name="PyAMF"
+       version="0.6.2"
+       provider-name="Mark Honeychurch (markhoney)">
+  <requires>
+    <import addon="xbmc.python"
+    		version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>PyAMF provides Action Message Format (AMF) support for Python that is compatible with the Adobe Flash Player.</summary>
+    <description>The Adobe Integrated Runtime and Adobe Flash Player use AMF to communicate between an application and a remote server. AMF encodes remote procedure calls (RPC) into a compact binary representation that can be transferred over HTTP/HTTPS or the RTMP/RTMPS protocol. Objects and data values are serialized into this binary format, which increases performance, allowing applications to load data up to 10 times faster than with text-based formats such as XML or SOAP.
+AMF3, the default serialization for ActionScript 3.0, provides various advantages over AMF0, which is used for ActionScript 1.0 and 2.0. AMF3 sends data over the network more efficiently than AMF0. AMF3 supports sending int and uint objects as integers and supports data types that are available only in ActionScript 3.0, such as ByteArray, ArrayCollection, ObjectProxy and IExternalizable.</description>
+    <license>MIT</license>
+    <platform>all</platform>
+	<source>http://www.pyamf.org/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.autism"
+	name="Autism Help and Support"
+	version="1.0.0"
+	provider-name="Shanks">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A collection of music and video playlists with content for your autistic child</summary>
+    <description lang="en">This is a collection of music and video playlists for calming and educating children with autism</description>
+    <platform>all</platform>
+    <forum>http://ares-project.uk</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.AresMafia"
+	name="[COLORblue]A[/COLOR][COLORwhite]res Mafia[/COLOR]"
+	version="1.0.2"
+	provider-name="Ares Project">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A Selection of Mafia Content</summary>
+    <description lang="en">A Selection Of Mafia content from free sources - Hope You Enjoy.. Poppa Smurf - Caret4ker - Automan - Join us on the forum @ http://ares-project.uk</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
   </extension>
 </addon>
 
@@ -347,55 +151,131 @@
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="3.0.35" provider-name="tvaddons.ag, Eldorado">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="script.module.python.twitch" optional="true" />
-		<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
-		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-	</extension>
+<addon id="script.module.pyxbmct"
+   name="PyXBMCt"
+   version="1.2.0"
+   provider-name="Roman V.M.">
+  <requires>
+    <import addon="xbmc.python" version="2.20.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">PyXBMCt UI framework</summary>
+    <description lang="en">PyXBMCt is a mini-framework for simple XBMC addon UI buliding. It is similar to PyQt and provides parent windows, a number of UI controls (widgets) and a grid layout manager to place controls.</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <license>GNU GPL v.3</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=174859</forum>
+    <website>http://romanvm.github.io/PyXBMCt</website>
+    <email>romanvm@yandex.ua</email>
+    <source>https://github.com/romanvm/script.module.pyxbmct</source>
+  </extension>
 </addon>
 
-<addon id="script.areswizard" name="[COLOR black].[/COLOR] Ares Wizard" provider-name="AresTeam" version="0.0.60">
-<requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.six" version="1.9.0" optional="true"/>
-	<import addon="script.module.arrow" version="0.6.0" optional="true"/>
-	<import addon="script.module.requests" version="2.7.0" optional="true"/>
-  </requires>
- <extension library="default.py" point="xbmc.python.pluginsource">
- <provides>executable</provides>
- </extension>
- <extension point="xbmc.service" library="resources/service.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Ares Wizard - Your one stop for Kodi setup + maintenance</summary>
-    <description lang="en">Ares Wizard</description>
-    <platform>all</platform>
-  </extension>
-  <extension point="kodi.context.item">
-	  <menu id="kodi.core.main">
-		<item library="resources/uploadlog.py">
-		  <label>Upload Kodi Log via Ares Project</label>
-		  <visible>true</visible>
-		</item>
-	  </menu>
-	</extension>
- </addon>
-
-<addon id="plugin.video.CelticFC"
-       name="[COLORgreen]C[/COLOR][COLORwhite]eltic[/COLOR][COLORyellow]FC[/COLOR]"
-       version="1.0.7"
-       provider-name="[COLORgreen]Pab[/COLOR][COLORwhite]lo1[/COLOR][COLORyellow]967[/COLOR]">
+<addon id="plugin.video.wwe-on-demand" name="Wrestling On Demand" version="4.05" provider-name="@PBear90 and @jdth77">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.urlresolver"  version="2.1.2"/>
+    <import addon="script.module.liveresolver" version="0.1.24"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+    <import addon="plugin.video.youtube" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">The Home Of Wrestling On Demand</summary>
+    <description lang="en">The Offical Home Of Wrestling On Demand | Huge Thanks To EchoCoder for making updates to the addon to my requirements. Thanks to Ares for hosting this addon.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.arescomedy"
+	name="[COLOR blue]A[/COLOR][COLOR white]res Comedy[/COLOR]"
+	version="1.0.3"
+	provider-name="Ares-Project">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A Selection of Comedy playlists</summary>
+    <description lang="en">A Big mix of Comedy from free sources. Hope you enjoy.. PoppaSmurf - Caret4ker - Automan  -  Join us on the forum @ http://ares-project.uk</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.aresfitness"
+	name="[COLOR blue]A[/COLOR][COLOR white]res Fitness[/COLOR]"
+	version="1.0.1"
+	provider-name="Shanks">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A Collection of Stretches, Exercises, Fitness Videos, and More</summary>
+    <description lang="en">A seleection of videos on pre-workout stretching, exercises, videos from Fitness experts and more .. Hope you enjoy.. PoppaSmurf - Caret4ker - Automan  -  Shanks  -  Join us on the forum @ http://ares-project.uk</description>
+    <platform>all</platform>
+    <forum>http://ares-project.uk</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.gamers-tube"
+	name="Ares Gamers Tube"
+	version="1.1.1"
+	provider-name="Ares-Project">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Gamers Tube</summary>
+    <description lang="en">YouTube Channels for Gamers</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="script.module.simple.downloader" name="Simple Downloader for xbmc plugins" provider-name="TheCollective" version="1.9.5">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.common.plugin.cache" version="2.5.0" />
+    <import addon="script.module.parsedom" version="2.5.1" />
+  </requires>
+  <extension library="default.py" point="xbmc.service" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Simple downloader for xbmc plugins.</summary>
+  </extension>
+  <extension library="lib" point="xbmc.python.module" />
+</addon>
+
+<addon id="plugin.video.themusicsource"
+       name="The-Music-Source"
+       version="1.0.5"
+       provider-name="Matt S - Ares-Streams">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
@@ -403,39 +283,82 @@
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
     <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="plugin.video.youtube" />
     <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Kodi Celtic FC Addon</summary>
-    <description lang="en">https://twitter.com/KodiCelticFC</description>
+    <summary></summary>
+    <description>The addon that provides you the best in Music with a wealth of audio and video categories to choose from. Matt S and Ares Streams have you covered.
+    </description>
     <platform>all</platform>
   </extension>
 </addon>
 
-<addon id="plugin.video.now_music_usa" name="[COLOR blue]N[/COLOR]ow [COLOR red]M[/COLOR]usic [COLOR white]U[/COLOR]SA"	version="1.0.5"	provider-name="Pulse Builds">
+<addon id="plugin.video.AresKungfu"
+	name="[COLOR blue]A[/COLOR][COLOR white]res Kung-Fu[/COLOR]"
+	version="1.0.1"
+	provider-name="Ares-Project">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
     <import addon="plugin.video.youtube" version="5.0.0"/>
   </requires>
-  <extension point="xbmc.python.pluginsource" library="pulse.py">
+  <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Now Thats What I Call Music USA Collection</summary>
-    <description lang="en">All Content In This Addon Is Freely Available On The Internet</description>
-    <disclaimer lang="en">Please Use Genuine PULSE BUILDS And Addons From Genuine Sources</disclaimer>
+    <summary lang="en">A massive mixed up selection of Kung-Fu movies and Content from everyones favourite sharing site.. Youtube</summary>
+    <description lang="en">Join us on the forum @ http://ares-project.uk</description>
     <platform>all</platform>
     <forum>n/a</forum>
     <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="script.module.requests"
+       name="requests"
+       version="2.12.4"
+       provider-name="kennethreitz, beenje">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Python HTTP for Humans</summary>
+    <description>Packed for KODI from https://github.com/kennethreitz/requests</description>
+    <platform>all</platform>
+    <language></language>
+    <license>Apache2</license>
+    <forum></forum>
+    <website>http://python-requests.org</website>
+    <source>https://github.com/beenje/script.module.requests</source>
+    <email>beenje AT gmail.com</email>
+  </extension>
+</addon>
+
+<addon id="plugin.video.real-movies" name="[COLOR red]Real-Movies[/COLOR]" version="2.1" provider-name="K-M-M">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.urlresolver"  version="2.1.2"/>
+    <import addon="script.module.liveresolver" version="0.1.24"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Real-Movies</summary>
+    <description lang="en">Movies To Watch For Non Real-Debrid Users.And It Works Even Better For Real Debrid Users. </description>
+    <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+    <platform>all</platform>
   </extension>
 </addon>
 
@@ -462,113 +385,6 @@
 		</item>
 	  </menu>
 	</extension>
-</addon>
-
-<addon id="plugin.video.wwe-on-demand" name="Wrestling On Demand" version="4.05" provider-name="@PBear90 and @jdth77">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.simplejson" version="3.3.0"/>
-    <import addon="script.module.urlresolver"  version="2.1.2"/>
-    <import addon="script.module.liveresolver" version="0.1.24"/>
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-    <import addon="plugin.video.youtube" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">The Home Of Wrestling On Demand</summary>
-    <description lang="en">The Offical Home Of Wrestling On Demand | Huge Thanks To EchoCoder for making updates to the addon to my requirements. Thanks to Ares for hosting this addon.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.areskidstube"
-	name="[COLOR blue]A[/COLOR][COLOR white]res KidsTube[/COLOR]"
-	version="1.0.0"
-	provider-name="Ares-Project">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">A Selection of Childrens Content</summary>
-    <description lang="en">A Big mix of Childrens from free sources. Hope you enjoy.. PoppaSmurf - Caret4ker - Automan  -  Join us on the forum @ http://ares-project.uk</description>
-    <platform>all</platform>
-    <forum>n/a</forum>
-    <website>n/a</website>
-  </extension>
-</addon>
-
-<addon id="plugin.video.ufc-finest" name="Planet MMA" version="2.8" provider-name="@DetectiveKode">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.simplejson" version="3.3.0"/>
-    <import addon="script.module.urlresolver"  version="2.1.2"/>
-    <import addon="script.module.liveresolver" version="0.1.24"/>
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-
-    <import addon="script.module.metahandler" version="2.5.1"/>
-    <import addon="plugin.video.youtube" optional="true" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Planet MMA</summary>
-    <description lang="en">Planet MMA - All your MMA needs. Big thanks to @xEdiTz for art work and I can't forget @EchoCoder for bringing my ideas alive when required.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="script.module.addon.common"
-	     name="Common addon methods"
-	     version="2.0.1"
-	     provider-name="Eldorado (original: t0mm0)">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Collection of commonly used addon routines</summary>
-    <description lang="en">Collection of commonly used addon routines to simplify addon development.</description>
-    <disclaimer lang="en"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
-</addon>
-
-<addon id="script.module.pyxbmct"
-   name="PyXBMCt"
-   version="1.2.0"
-   provider-name="Roman V.M.">
-  <requires>
-    <import addon="xbmc.python" version="2.20.0"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">PyXBMCt UI framework</summary>
-    <description lang="en">PyXBMCt is a mini-framework for simple XBMC addon UI buliding. It is similar to PyQt and provides parent windows, a number of UI controls (widgets) and a grid layout manager to place controls.</description>
-    <disclaimer lang="en"></disclaimer>
-    <language></language>
-    <license>GNU GPL v.3</license>
-    <forum>http://forum.xbmc.org/showthread.php?tid=174859</forum>
-    <website>http://romanvm.github.io/PyXBMCt</website>
-    <email>romanvm@yandex.ua</email>
-    <source>https://github.com/romanvm/script.module.pyxbmct</source>
-  </extension>
 </addon>
 
 <addon id="plugin.video.youtube" name="YouTube" version="5.4.14Bump" provider-name="jdf76, bromix">
@@ -633,143 +449,101 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.fgteev" name="FGTeeV"	version="1.0.0"	provider-name="Pulse">
+<addon id="plugin.video.MyAnimasi"
+       name="[COLOR blue]My[/COLOR][COLOR red]Ani[/COLOR][COLOR green]ma[/COLOR][COLOR orange]si[/COLOR]"
+       version="5.0.0"
+       provider-name="nashadi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.3.12"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+        <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+     <import addon="script.module.addon.common" optional="true"/>
   </requires>
-  <extension point="xbmc.python.pluginsource" library="pulse.py">
+  <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Family Gaming Team</summary>
-    <description lang="en"></description>
-    <disclaimer lang="en"></disclaimer>
-    <platform>all</platform>
-    <forum>n/a</forum>
-    <website>n/a</website>
+<summary lang="en">kompilasi video animasi tempatan</summary>
+    <description lang="en">
+	Kompilasi animasi tempatan dan luar negara kegemaran tontonan kanak-kanak di Malaysia.
+	</description>
+	<disclaimer>Video Addon ini adalah percuma. Kompilasi video daripada sumber sedia ada youtube dan ripper tempatan yang disusun secara teratur bagi memudahkan tontonan.</disclaimer>
+    <email>k.kusanagi101@gmail.com</email>
+	<platform>all</platform>
   </extension>
 </addon>
 
-<addon id="script.common.plugin.cache" name="Common plugin cache" provider-name="TheCollective" version="2.5.8">
-  <requires>
-    <import addon="xbmc.python" version="2.24.0" />
-  </requires>
-  <extension library="default.py" point="xbmc.service" start="startup">
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Common caching api for xbmc plugins.</summary>
-  </extension>
-  <extension library="lib" point="xbmc.python.module" />
-</addon>
-
-<addon id="plugin.video.AresMoTV"
-	   name="[COLOR blue]A[/COLOR][COLOR white]resMoTV[/COLOR]"
-	   version="6.0"
-	   provider-name="2uk3y-Kodim-Ares-Streams">
-  <requires>
-    <import addon="script.module.metahandler" optional="true" />
-    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
-    <import addon="script.module.urlresolver" version="3.0.0" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-			 library="AresMoTV.py">
-    	<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Sit Back &amp; Relax</summary>
-    <description lang="en">Watch Your Favorite Movies &amp; TV Shows Online For Free.
-Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assistance.</description>
-    <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-    <platform>all</platform>
-    <website>https://ares-project.uk</website>
-    <forum>https://ares-project.uk</forum>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-  </extension>
-</addon>
-
-<addon id="script.module.youtube.dl" name="youtube-dl Control" version="17.518.2" provider-name="Rick Phillips (ruuk)">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.addon.signals" version="0.0.1"/>
-    </requires>
-    <extension point="xbmc.python.script" library="control.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">Module providing access to youtube-dl video stream extraction</summary>
-        <description lang="en">Module providing access to youtube-dl video stream extraction for hundreds of sites. Version is based on youtube-dl date version: YY.MDD.V where V is the addon specific sub-version. Also provides downloading with the option for background downloading with a queue and queue manager.</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <forum>http://forum.xbmc.org/showthread.php?tid=200877</forum>
-        <source>http://github.com/ruuk/script.module.youtube.dl</source>
-    </extension>
-</addon>
-
-<addon id="script.module.liveresolver"
-     name="LiveResolver"
-     version="0.1.49"
-     provider-name="natko1412">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.addon.common" version="2.0.0" />
-
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Resolve common live video host URL's to be playable in XBMC/Kodi + find links embeded in sites.</summary>
-    <description lang="en"></description>
-  </extension>
-</addon>
-
-<addon id="plugin.video.motorreplays" name="[B][COLORorange]Motor Replays[/COLOR][/B]" version="2.3" provider-name="@Aleighty80">
+<addon id="plugin.video.AresTube"
+       name="AresTube"
+       version="0.0.4"
+       provider-name="Ares Project">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.simplejson" version="3.3.0"/>
-    <import addon="script.module.urlresolver"  version="2.1.2"/>
-    <import addon="script.module.liveresolver" version="0.1.43"/>
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+    <import addon="script.module.addon.common" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
+    <provides>video</provides>
   </extension>
+
+     <extension point="xbmc.addon.repository" name="AresRepo">
+        <info compressed="false">https://raw.githubusercontent.com/ares-fortress/repo/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/ares-fortress/repo/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/ares-fortress/repo/</datadir>
+    </extension>
+
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">[B][COLOR orange]Motor Replays[/COLOR][/B]</summary>
-    <description lang="en">The Official Home of MOTOR REPLAYS by @Aleighty80, If you like Motorsports of any typr this is the addon for you</description>
+    <summary lang="en">The Very Best Of Youtube</summary>
+    <summary>AresTube  - based livestreamspro 2.7.0 by Shani</summary>
+    <description>We Thank You All! Remember to check out our other addons and visit the forum https://ares-project.uk</description>
     <platform>all</platform>
   </extension>
 </addon>
 
-<addon id="plugin.video.AresFootBall"
-	   name="[COLOR blue]A[/COLOR][COLOR white]res FootBall[/COLOR]"
-	   version="1.0.3.160711"
-	   provider-name="2uk3y-Kodim-Ares-Streams">
+<addon id="script.module.httplib2" name="httplib2" provider-name=" Joe Gregorio" version="0.8.0">
   <requires>
-    <import addon="script.module.requests" version="1.0.0" />
+    <import addon="xbmc.python" version="2.1.0" />
   </requires>
-  <extension point="xbmc.python.pluginsource"
-			 library="aresfootball.py">
-    	<provides>video</provides>
-  </extension>
+  <extension library="lib" point="xbmc.python.module" />
   <extension point="xbmc.addon.metadata">
-    <summary>Full Matches and Shows</summary>
-    <description>Full Matches and Shows Brings you the Latest Soccer Shows and Full Match Highlights Videos from top european soccer leagues</description>
-    <platform>all</platform>
-  </extension>
+        <description lan="en">httplib2 module</description>
+        <summary lang="en">httplib2 module</summary>
+        <disclaimer lang="en">Visit https://pypi.python.org/pypi/httplib2</disclaimer>
+        <license>MIT</license>
+        <platform>all</platform>
+        <email></email>
+        <website>https://pypi.python.org/pypi/httplib2</website>
+        <forum></forum>
+        <source>https://pypi.python.org/pypi/httplib2</source>
+        <language></language>
+   </extension>
 </addon>
 
-<addon id="plugin.video.aresanime"
-	name="[COLOR blue]A[/COLOR][COLOR white]res Anime[/COLOR]"
+<addon id="plugin.video.aresmagic"
+	name="[COLOR blue]A[/COLOR][COLOR white]res Magic[/COLOR]"
 	version="1.0.0"
-	provider-name="Ares-Project">
+	provider-name="Shanks">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
@@ -779,18 +553,37 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">A Selection of Anime Content</summary>
-    <description lang="en">A Big mix of Anime from free sources. No order or sections just hours and hours of anime movies. Hope you enjoy.. PoppaSmurf - Caret4ker - Automan  -  Join us on the forum @ http://ares-project.uk</description>
+    <summary lang="en">A Collection of Magicians, Illusionists, and some great tutorials on how to perform your own magic.</summary>
+    <description lang="en">A Selection of Magic, Illusions, and more.. Hope you enjoy.. PoppaSmurf - Caret4ker - Automan  -  Shanks  -  Join us on the forum @ http://ares-project.uk</description>
     <platform>all</platform>
     <forum>n/a</forum>
     <website>n/a</website>
   </extension>
 </addon>
 
-<addon id="plugin.video.DCSports"
-       name="DC Sports"
-       version="1.1.7"
-       provider-name="DCSPORTS">
+<addon id="plugin.video.now_music_usa" name="[COLOR blue]N[/COLOR]ow [COLOR red]M[/COLOR]usic [COLOR white]U[/COLOR]SA"	version="1.0.5"	provider-name="Pulse Builds">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="pulse.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Now Thats What I Call Music USA Collection</summary>
+    <description lang="en">All Content In This Addon Is Freely Available On The Internet</description>
+    <disclaimer lang="en">Please Use Genuine PULSE BUILDS And Addons From Genuine Sources</disclaimer>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Ares-Streams"
+       name="Ares-Streams"
+       version="1.2.1"
+       provider-name="Ares Project">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -812,9 +605,200 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">World Sports Addon</summary>
-    <description lang="en">World Sports Addon</description>
+    <summary lang="en"> Join us at http://ares-project.com/community/forums/</summary>
+    <description lang="en">We Thank You All! Remember to check out our other addons.</description>
     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.aresmusic"
+       name="[COLORblue]Ares[/COLOR] [COLORwhite]Music[/COLOR]"
+       version="1.0.0"
+       provider-name="[COLORblue]Ares[/COLOR][COLORwhite]Project[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>audio video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>A MUSIC SOURCE FOR ALL</summary>
+    <description>A one stop shop for all music needs brought to you from  [COLORblue]Ares[/COLOR][COLORwhite]Project[/COLOR], Formerly The-Music-Source so big thanks to Matt for this..
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.now_music" name="[COLOR blue]N[/COLOR]ow [COLOR red]M[/COLOR]usic"	version="2.0.8"	provider-name="Pulse Builds">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="pulse.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Now Thats What I Call Music Collection</summary>
+    <description lang="en">All Content In This Addon Is Freely Available On The Internet</description>
+    <disclaimer lang="en">Please Use Genuine PULSE BUILDS Addons And Builds From Genuine Sources</disclaimer>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.AresWorld"
+	   name="[COLORblue]A[/COLOR][COLORwhite]res World[/COLOR]"
+	   version="1.0.9"
+	   provider-name="2uk3y-Kodim-Ares">
+  <requires>
+    <import addon="script.module.requests" version="1.0.0" />
+	<import addon="plugin.video.f4mTester" />
+	<import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.video.F4mProxy" version="2.2.3"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+			 library="aw.py">
+    	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.35" provider-name="tvaddons.ag, Eldorado">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.module.python.twitch" optional="true" />
+		<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+	</extension>
+</addon>
+
+<addon id="plugin.video.areschefskills"
+	name="[COLOR blue]A[/COLOR][COLOR white]res Chef Skills[/COLOR]"
+	version="1.0.0"
+	provider-name="Shanks">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A collection of videos to introduce you to some of the skills that help chefs in the kitchen</summary>
+    <description lang="en">A Selection of Instructional videos to teach you some important skills in the kitchen.. Hope you enjoy.. PoppaSmurf - Caret4ker - Automan  -  Shanks  -  Join us on the forum @ http://ares-project.uk</description>
+    <platform>all</platform>
+    <forum>http://ares-project.uk</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="script.module.livestreamer"
+       name="livestreamer"
+       version="1.12.0"
+       provider-name="Christopher Rosell">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"
+                      version="1.1.0"
+                     optional="false"/>
+    <import addon="script.module.singledispatch"
+                      version="3.4.0.3"
+                     optional="false"/>
+    <import addon="script.module.futures"
+                      version="2.2.0"
+                     optional="false"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>Livestreamer extracts streams from various services</summary>
+    <description>Livestreamer is a command-line utility that pipes video streams from various services into a video player, such as VLC. The main purpose of Livestreamer is to allow the user to avoid buggy and CPU heavy flash plugins but still be able to enjoy various streamed content. There is also an API available for developers who want access to the video stream data.</description>
+    <platform>all</platform>
+    <license>Simplified BSD</license>
+    <source>https://github.com/chrippa/livestreamer.git</source>
+    <website>http://livestreamer.io</website>
+  </extension>
+</addon>
+
+<addon id="script.module.t0mm0.common"
+	     name="t0mm0's common stuff"
+	     version="2.1.1"
+	     provider-name="t0mm0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Collection of commonly used addon routines</summary>
+    <description lang="en">Collection of commonly used addon routines to simplify addon development.</description>
+  </extension>
+</addon>
+
+<addon id="script.module.beautifulsoup"
+       name="BeautifulSoup"
+       version="3.2.1"
+       provider-name="Leonard Richardson (leonardr@segfault.org)">
+  <requires>
+    <import addon="xbmc.python"
+    		version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>HTML/XML parser for quick-turnaround applications like screen-scraping</summary>
+    <description>Beautiful Soup parses arbitrarily invalid SGML and provides a variety of methods and Pythonic idioms for iterating and searching the parse tree.</description>
+    <license>BSD</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.metahandler"
+     name="metahandler"
+     version="2.9.1"
+     provider-name="Eldorado">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="script.module.myconnpy" version="1.1.6"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Downloads Artwork for TV shows, Movies and Music videos for addons and stores them in a local SQLITE database</summary>
+    <description lang="en">Queries, stores, and returns metadata for TV shows, Movies and Musicvideos. [CR]Sources:[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]www.imdb.com[CR]www.omdbapi.com[CR]This product uses the TMDb API but is not endorsed or certified by TMDb.</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
   </extension>
 </addon>
 
@@ -840,174 +824,13 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.arescookbook"
-	name="[COLOR blue]A[/COLOR][COLOR white]res Cookbook[/COLOR]"
-	version="1.0.1"
-	provider-name="Ares-Project">
+<addon id="plugin.video.Ares-Indexer"
+       name="[COLOR blue]Ares[/COLOR][COLOR white]Indexer[/COLOR]"
+       version="1.0.0"
+       provider-name="Ares Project">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">A Selection of Cooking Content</summary>
-    <description lang="en">A Selection of Recepies, Channels and TV shows all in regards to Cooking.. Hope you enjoy.. PoppaSmurf - Caret4ker - Automan  -  Join us on the forum @ http://ares-project.uk</description>
-    <platform>all</platform>
-    <forum>n/a</forum>
-    <website>n/a</website>
-  </extension>
-</addon>
-
-<addon id="repository.aresproject" name="[COLOR blue]A[/COLOR][COLOR white]res Project[/COLOR]" version="0.0.6" provider-name="Ares Team">
-	<extension point="xbmc.addon.repository" name="AresRepo">
-		<info compressed="false">http://repo.ares-project.com/plugins/addons.xml</info>
-		<checksum>http://repo.ares-project.com/plugins/addons.xml.md5</checksum>
-		<datadir zip="true">http://repo.ares-project.com/plugins/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>AresProject.</summary>
-		<description>Ares-Project Addons Source. Visit Us At https://ares-project.uk</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="script.module.httplib2" name="httplib2" provider-name=" Joe Gregorio" version="0.8.0">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-  </requires>
-  <extension library="lib" point="xbmc.python.module" />
-  <extension point="xbmc.addon.metadata">
-        <description lan="en">httplib2 module</description>
-        <summary lang="en">httplib2 module</summary>
-        <disclaimer lang="en">Visit https://pypi.python.org/pypi/httplib2</disclaimer>
-        <license>MIT</license>
-        <platform>all</platform>
-        <email></email>
-        <website>https://pypi.python.org/pypi/httplib2</website>
-        <forum></forum>
-        <source>https://pypi.python.org/pypi/httplib2</source>
-        <language></language>
-   </extension>
-</addon>
-
-<addon id="plugin.video.real-movies" name="[COLOR red]Real-Movies[/COLOR]" version="2.1" provider-name="K-M-M">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.simplejson" version="3.3.0"/>
-    <import addon="script.module.urlresolver"  version="2.1.2"/>
-    <import addon="script.module.liveresolver" version="0.1.24"/>
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-    <import addon="plugin.video.youtube" optional="true" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Real-Movies</summary>
-    <description lang="en">Movies To Watch For Non Real-Debrid Users.And It Works Even Better For Real Debrid Users. </description>
-    <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.aresrelaxation"
-	name="[COLOR blue]A[/COLOR][COLOR white]res Relaxation[/COLOR]"
-	version="1.0.0"
-	provider-name="Shanks">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">A collection of relaxation, meditation, yoga videos as well as some relaxing music playlists</summary>
-    <description lang="en">A Selection of playlists with meditation, yoga, and music .. Hope you enjoy.. PoppaSmurf - Caret4ker - Automan  -  Shanks  -  Join us on the forum @ http://ares-project.uk</description>
-    <platform>all</platform>
-    <forum>http://ares-project.uk</forum>
-    <website>n/a</website>
-  </extension>
-</addon>
-
-<addon id="script.module.t0mm0.common"
-	     name="t0mm0's common stuff"
-	     version="2.1.1"
-	     provider-name="t0mm0">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Collection of commonly used addon routines</summary>
-    <description lang="en">Collection of commonly used addon routines to simplify addon development.</description>
-  </extension>
-</addon>
-
-<addon id="plugin.video.thepyramid"
-       name="The Pyramid"
-       version="1.54"
-       provider-name="TomBraiderMovies">
-  <requires>
-	<import addon="script.module.beautifulsoup" version="3.2.1"/>
-	<import addon="script.module.beautifulsoup4" />
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common" />
-	<import addon="script.module.requests" />
-    <import addon="script.module.pyxbmct" version="1.1.4"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" version="3.0.0"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-    <import addon="script.module.liveresolver"  version="0.1.28"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLORblue]Brought To You By The Tomb Raider Builds Team[/COLOR]</summary>
-    <description lang="en">[COLORblue]This Is An Unofficial Kodi Add-On.[/COLOR] All The Content We Provide Is Freely Available On The Internet. We Do Not Store Any Content Ourselves. Official Source Is ARES Repo Only</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="script.module.pyamf"
-       name="PyAMF"
-       version="0.6.2"
-       provider-name="Mark Honeychurch (markhoney)">
-  <requires>
-    <import addon="xbmc.python"
-    		version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary>PyAMF provides Action Message Format (AMF) support for Python that is compatible with the Adobe Flash Player.</summary>
-    <description>The Adobe Integrated Runtime and Adobe Flash Player use AMF to communicate between an application and a remote server. AMF encodes remote procedure calls (RPC) into a compact binary representation that can be transferred over HTTP/HTTPS or the RTMP/RTMPS protocol. Objects and data values are serialized into this binary format, which increases performance, allowing applications to load data up to 10 times faster than with text-based formats such as XML or SOAP.
-AMF3, the default serialization for ActionScript 3.0, provides various advantages over AMF0, which is used for ActionScript 1.0 and 2.0. AMF3 sends data over the network more efficiently than AMF0. AMF3 supports sending int and uint objects as integers and supports data types that are available only in ActionScript 3.0, such as ByteArray, ArrayCollection, ObjectProxy and IExternalizable.</description>
-    <license>MIT</license>
-    <platform>all</platform>
-	<source>http://www.pyamf.org/</source>
-  </extension>
-</addon>
-
-<addon id="plugin.video.themusicsource"
-       name="The-Music-Source"
-       version="1.0.5"
-       provider-name="Matt S - Ares-Streams">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
@@ -1015,17 +838,78 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
     <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" />
+    <import addon="plugin.video.youtube" version="3.0.0"/>
     <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <summary lang="en"> Indexs of Movies TV Shows and Music</summary>
+    <description lang="en">We Thank You All! Remember to check out our other addons.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.AresParanormal"
+	name="[COLORblue]A[/COLOR][COLORwhite]res Paranormal[/COLOR]"
+	version="1.0.2"
+	provider-name="Ares Project">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A Selection of Paranormal, Supernatural and Ghost Story Documentaries</summary>
+    <description lang="en">A Selection Of Paranormal Documentaries from free sources - Hope You Enjoy.. Poppa Smurf - Caret4ker - Automan - Join us on the forum @ http://ares-project.uk</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.fgteev" name="FGTeeV"	version="1.0.0"	provider-name="Pulse">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.3.12"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="pulse.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Family Gaming Team</summary>
+    <description lang="en"></description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.G10"
+	   name="G10 Movies"
+	   version="1.0.0"
+	   provider-name="Ares Team">
+  <requires>
+    <import addon="script.module.requests" version="1.0.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+			 library="default.py">
+    	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
     <summary></summary>
-    <description>The addon that provides you the best in Music with a wealth of audio and video categories to choose from. Matt S and Ares Streams have you covered.
-    </description>
+    <description></description>
+    <description></description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -1061,90 +945,30 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
   </extension>
 </addon>
 
-<addon id="script.module.livestreamer"
-       name="livestreamer"
-       version="1.12.0"
-       provider-name="Christopher Rosell">
+<addon id="plugin.video.areskidstube"
+	name="[COLOR blue]A[/COLOR][COLOR white]res KidsTube[/COLOR]"
+	version="1.0.0"
+	provider-name="Ares-Project">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.requests"
-                      version="1.1.0"
-                     optional="false"/>
-    <import addon="script.module.singledispatch"
-                      version="3.4.0.3"
-                     optional="false"/>
-    <import addon="script.module.futures"
-                      version="2.2.0"
-                     optional="false"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib"/>
-  <extension point="xbmc.addon.metadata">
-    <summary>Livestreamer extracts streams from various services</summary>
-    <description>Livestreamer is a command-line utility that pipes video streams from various services into a video player, such as VLC. The main purpose of Livestreamer is to allow the user to avoid buggy and CPU heavy flash plugins but still be able to enjoy various streamed content. There is also an API available for developers who want access to the video stream data.</description>
-    <platform>all</platform>
-    <license>Simplified BSD</license>
-    <source>https://github.com/chrippa/livestreamer.git</source>
-    <website>http://livestreamer.io</website>
-  </extension>
-</addon>
-
-<addon id="plugin.video.aresmusic"
-       name="[COLORblue]Ares[/COLOR] [COLORwhite]Music[/COLOR]"
-       version="1.0.0"
-       provider-name="[COLORblue]Ares[/COLOR][COLORwhite]Project[/COLOR]">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>audio video</provides>
+    <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>A MUSIC SOURCE FOR ALL</summary>
-    <description>A one stop shop for all music needs brought to you from  [COLORblue]Ares[/COLOR][COLORwhite]Project[/COLOR], Formerly The-Music-Source so big thanks to Matt for this..
-    </description>
+    <summary lang="en">A Selection of Childrens Content</summary>
+    <description lang="en">A Big mix of Childrens from free sources. Hope you enjoy.. PoppaSmurf - Caret4ker - Automan  -  Join us on the forum @ http://ares-project.uk</description>
     <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
   </extension>
 </addon>
 
-<addon id="script.module.metahandler"
-     name="metahandler"
-     version="2.9.1"
-     provider-name="Eldorado">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.simplejson" version="3.3.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="script.module.myconnpy" version="1.1.6"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Downloads Artwork for TV shows, Movies and Music videos for addons and stores them in a local SQLITE database</summary>
-    <description lang="en">Queries, stores, and returns metadata for TV shows, Movies and Musicvideos. [CR]Sources:[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]www.imdb.com[CR]www.omdbapi.com[CR]This product uses the TMDb API but is not endorsed or certified by TMDb.</description>
-    <disclaimer lang="en"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
-</addon>
-
-<addon id="plugin.video.AresMafia"
-	name="[COLORblue]A[/COLOR][COLORwhite]res Mafia[/COLOR]"
-	version="1.0.2"
+<addon id="plugin.video.wolves"
+	name="[COLORorange]W[/COLOR][COLORwhite]olverhampton Wanderers[/COLOR]"
+	version="1.0.0"
 	provider-name="Ares Project">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1155,11 +979,196 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">A Selection of Mafia Content</summary>
-    <description lang="en">A Selection Of Mafia content from free sources - Hope You Enjoy.. Poppa Smurf - Caret4ker - Automan - Join us on the forum @ http://ares-project.uk</description>
+    <summary lang="en">A Mix of free content for Wolves FC fans</summary>
+    <description lang="en">Join us on the forum @ http://ares-project.uk</description>
     <platform>all</platform>
     <forum>n/a</forum>
     <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.CelticFC"
+       name="[COLORgreen]C[/COLOR][COLORwhite]eltic[/COLOR][COLORyellow]FC[/COLOR]"
+       version="1.0.7"
+       provider-name="[COLORgreen]Pab[/COLOR][COLORwhite]lo1[/COLOR][COLORyellow]967[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kodi Celtic FC Addon</summary>
+    <description lang="en">https://twitter.com/KodiCelticFC</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.simplejson"
+       name="simplejson"
+       version="3.3.0"
+       provider-name="Martijn">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">Simple, fast, extensible JSON encoder/decoder for Python</summary>
+    <description lang="en">Simple, fast, extensible JSON encoder/decoder for Python</description>
+    <disclaimer lang="en">Code taken from https://pypi.python.org/pypi/simplejson/</disclaimer>
+    <license>MIT License, Academic Free License v. 2.1</license>
+    <website>https://pypi.python.org/pypi/simplejson/</website>
+    <source>https://pypi.python.org/pypi/simplejson/</source>
+  </extension>
+</addon>
+
+<addon id="script.areswizard" name="[COLOR black].[/COLOR] Ares Wizard" provider-name="AresTeam" version="0.0.60">
+<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.six" version="1.9.0" optional="true"/>
+	<import addon="script.module.arrow" version="0.6.0" optional="true"/>
+	<import addon="script.module.requests" version="2.7.0" optional="true"/>
+  </requires>
+ <extension library="default.py" point="xbmc.python.pluginsource">
+ <provides>executable</provides>
+ </extension>
+ <extension point="xbmc.service" library="resources/service.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Ares Wizard - Your one stop for Kodi setup + maintenance</summary>
+    <description lang="en">Ares Wizard</description>
+    <platform>all</platform>
+  </extension>
+  <extension point="kodi.context.item">
+	  <menu id="kodi.core.main">
+		<item library="resources/uploadlog.py">
+		  <label>Upload Kodi Log via Ares Project</label>
+		  <visible>true</visible>
+		</item>
+	  </menu>
+	</extension>
+ </addon>
+
+<addon id="plugin.video.arescookbook"
+	name="[COLOR blue]A[/COLOR][COLOR white]res Cookbook[/COLOR]"
+	version="1.0.1"
+	provider-name="Ares-Project">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A Selection of Cooking Content</summary>
+    <description lang="en">A Selection of Recepies, Channels and TV shows all in regards to Cooking.. Hope you enjoy.. PoppaSmurf - Caret4ker - Automan  -  Join us on the forum @ http://ares-project.uk</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="script.common.plugin.cache" name="Common plugin cache" provider-name="TheCollective" version="2.5.8">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0" />
+  </requires>
+  <extension library="default.py" point="xbmc.service" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Common caching api for xbmc plugins.</summary>
+  </extension>
+  <extension library="lib" point="xbmc.python.module" />
+</addon>
+
+<addon id="plugin.video.AresFootBall"
+	   name="[COLOR blue]A[/COLOR][COLOR white]res FootBall[/COLOR]"
+	   version="1.0.3.160711"
+	   provider-name="2uk3y-Kodim-Ares-Streams">
+  <requires>
+    <import addon="script.module.requests" version="1.0.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+			 library="aresfootball.py">
+    	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Full Matches and Shows</summary>
+    <description>Full Matches and Shows Brings you the Latest Soccer Shows and Full Match Highlights Videos from top european soccer leagues</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.arrow"
+       name="arrow"
+       version="0.6.0"
+       provider-name="crsmithdev, Razzeee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.dateutil" version="2.4.2"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Arrow: better dates and times for Python</summary>
+    <description>Packed for Kodi from https://github.com/crsmithdev/arrow</description>
+    <platform>all</platform>
+    <language></language>
+    <license>Apache2</license>
+    <forum></forum>
+    <website>http://crsmithdev.com/arrow/</website>
+    <source>https://github.com/Razzeee/script.module.arrow</source>
+    <email>beenje AT gmail.com</email>
+  </extension>
+</addon>
+
+<addon id="plugin.video.thepyramid"
+       name="The Pyramid"
+       version="1.54"
+       provider-name="TomBraiderMovies">
+  <requires>
+	<import addon="script.module.beautifulsoup" version="3.2.1"/>
+	<import addon="script.module.beautifulsoup4" />
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.requests" />
+    <import addon="script.module.pyxbmct" version="1.1.4"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" version="3.0.0"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+    <import addon="script.module.liveresolver"  version="0.1.28"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLORblue]Brought To You By The Tomb Raider Builds Team[/COLOR]</summary>
+    <description lang="en">[COLORblue]This Is An Unofficial Kodi Add-On.[/COLOR] All The Content We Provide Is Freely Available On The Internet. We Do Not Store Any Content Ourselves. Official Source Is ARES Repo Only</description>
+    <platform>all</platform>
   </extension>
 </addon>
 
@@ -1184,133 +1193,28 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
   </extension>
 </addon>
 
-<addon id="plugin.video.AresTube"
-       name="AresTube"
-       version="0.0.4"
-       provider-name="Ares Project">
+<addon id="plugin.video.AresMoTV"
+	   name="[COLOR blue]A[/COLOR][COLOR white]resMoTV[/COLOR]"
+	   version="6.0"
+	   provider-name="2uk3y-Kodim-Ares-Streams">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.module.livestreamer" optional="true"/>
-    <import addon="script.module.pyamf" optional="true"/>
-    <import addon="script.module.addon.common" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-     <extension point="xbmc.addon.repository" name="AresRepo">
-        <info compressed="false">http://repo.ares-project.com/plugins/addons.xml</info>
-        <checksum>http://repo.ares-project.com/plugins/addons.xml.md5</checksum>
-        <datadir zip="true">http://repo.ares-project.com/plugins/</datadir>
-    </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">The Very Best Of Youtube</summary>
-    <summary>AresTube  - based livestreamspro 2.7.0 by Shani</summary>
-    <description>We Thank You All! Remember to check out our other addons and visit the forum https://ares-project.uk</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.AresWorld"
-	   name="[COLORblue]A[/COLOR][COLORwhite]res World[/COLOR]"
-	   version="1.0.9"
-	   provider-name="2uk3y-Kodim-Ares">
-  <requires>
-    <import addon="script.module.requests" version="1.0.0" />
-	<import addon="plugin.video.f4mTester" />
-	<import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.video.F4mProxy" version="2.2.3"/>
+    <import addon="script.module.metahandler" optional="true" />
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+    <import addon="script.module.urlresolver" version="3.0.0" />
   </requires>
   <extension point="xbmc.python.pluginsource"
-			 library="aw.py">
+			 library="AresMoTV.py">
     	<provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary></summary>
-    <description></description>
+    <summary lang="en">Sit Back &amp; Relax</summary>
+    <description lang="en">Watch Your Favorite Movies &amp; TV Shows Online For Free.
+Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assistance.</description>
+    <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.Ares-Streams"
-       name="Ares-Streams"
-       version="1.2.1"
-       provider-name="Ares Project">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en"> Join us at http://ares-project.com/community/forums/</summary>
-    <description lang="en">We Thank You All! Remember to check out our other addons.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.G10"
-	   name="G10 Movies"
-	   version="1.0.0"
-	   provider-name="Ares Team">
-  <requires>
-    <import addon="script.module.requests" version="1.0.0" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-			 library="default.py">
-    	<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary></summary>
-    <description></description>
-    <description></description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.arescomedy"
-	name="[COLOR blue]A[/COLOR][COLOR white]res Comedy[/COLOR]"
-	version="1.0.3"
-	provider-name="Ares-Project">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">A Selection of Comedy playlists</summary>
-    <description lang="en">A Big mix of Comedy from free sources. Hope you enjoy.. PoppaSmurf - Caret4ker - Automan  -  Join us on the forum @ http://ares-project.uk</description>
-    <platform>all</platform>
-    <forum>n/a</forum>
-    <website>n/a</website>
+    <website>https://ares-project.uk</website>
+    <forum>https://ares-project.uk</forum>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
   </extension>
 </addon>
 
@@ -1335,8 +1239,8 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
   </extension>
 </addon>
 
-<addon id="plugin.video.autism"
-	name="Autism Help and Support"
+<addon id="plugin.video.aresrelaxation"
+	name="[COLOR blue]A[/COLOR][COLOR white]res Relaxation[/COLOR]"
 	version="1.0.0"
 	provider-name="Shanks">
   <requires>
@@ -1348,38 +1252,17 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">A collection of music and video playlists with content for your autistic child</summary>
-    <description lang="en">This is a collection of music and video playlists for calming and educating children with autism</description>
+    <summary lang="en">A collection of relaxation, meditation, yoga videos as well as some relaxing music playlists</summary>
+    <description lang="en">A Selection of playlists with meditation, yoga, and music .. Hope you enjoy.. PoppaSmurf - Caret4ker - Automan  -  Shanks  -  Join us on the forum @ http://ares-project.uk</description>
     <platform>all</platform>
     <forum>http://ares-project.uk</forum>
     <website>n/a</website>
   </extension>
 </addon>
 
-<addon id="plugin.video.areschefskills"
-	name="[COLOR blue]A[/COLOR][COLOR white]res Chef Skills[/COLOR]"
+<addon id="plugin.video.aresanime"
+	name="[COLOR blue]A[/COLOR][COLOR white]res Anime[/COLOR]"
 	version="1.0.0"
-	provider-name="Shanks">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">A collection of videos to introduce you to some of the skills that help chefs in the kitchen</summary>
-    <description lang="en">A Selection of Instructional videos to teach you some important skills in the kitchen.. Hope you enjoy.. PoppaSmurf - Caret4ker - Automan  -  Shanks  -  Join us on the forum @ http://ares-project.uk</description>
-    <platform>all</platform>
-    <forum>http://ares-project.uk</forum>
-    <website>n/a</website>
-  </extension>
-</addon>
-
-<addon id="plugin.video.gamers-tube"
-	name="Ares Gamers Tube"
-	version="1.1.1"
 	provider-name="Ares-Project">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1390,8 +1273,125 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Gamers Tube</summary>
-    <description lang="en">YouTube Channels for Gamers</description>
+    <summary lang="en">A Selection of Anime Content</summary>
+    <description lang="en">A Big mix of Anime from free sources. No order or sections just hours and hours of anime movies. Hope you enjoy.. PoppaSmurf - Caret4ker - Automan  -  Join us on the forum @ http://ares-project.uk</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.ufc-finest" name="Planet MMA" version="2.8" provider-name="@DetectiveKode">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.urlresolver"  version="2.1.2"/>
+    <import addon="script.module.liveresolver" version="0.1.24"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+
+    <import addon="script.module.metahandler" version="2.5.1"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Planet MMA</summary>
+    <description lang="en">Planet MMA - All your MMA needs. Big thanks to @xEdiTz for art work and I can't forget @EchoCoder for bringing my ideas alive when required.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.aresproject" name="[COLOR blue]A[/COLOR][COLOR white]res Project[/COLOR]" version="0.0.7" provider-name="Ares Team">
+	<extension point="xbmc.addon.repository" name="AresRepo">
+		<info compressed="false">https://raw.githubusercontent.com/ares-fortress/repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/ares-fortress/repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/ares-fortress/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>AresProject.</summary>
+		<description>Ares-Project Addons Source. Visit Us At https://ares-project.uk</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.module.addon.common"
+	     name="Common addon methods"
+	     version="2.0.1"
+	     provider-name="Eldorado (original: t0mm0)">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Collection of commonly used addon routines</summary>
+    <description lang="en">Collection of commonly used addon routines to simplify addon development.</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="17.518.2" provider-name="Rick Phillips (ruuk)">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.addon.signals" version="0.0.1"/>
+    </requires>
+    <extension point="xbmc.python.script" library="control.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Module providing access to youtube-dl video stream extraction</summary>
+        <description lang="en">Module providing access to youtube-dl video stream extraction for hundreds of sites. Version is based on youtube-dl date version: YY.MDD.V where V is the addon specific sub-version. Also provides downloading with the option for background downloading with a queue and queue manager.</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>http://forum.xbmc.org/showthread.php?tid=200877</forum>
+        <source>http://github.com/ruuk/script.module.youtube.dl</source>
+    </extension>
+</addon>
+
+<addon id="plugin.video.motorreplays" name="[B][COLORorange]Motor Replays[/COLOR][/B]" version="2.3" provider-name="@Aleighty80">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.urlresolver"  version="2.1.2"/>
+    <import addon="script.module.liveresolver" version="0.1.43"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[B][COLOR orange]Motor Replays[/COLOR][/B]</summary>
+    <description lang="en">The Official Home of MOTOR REPLAYS by @Aleighty80, If you like Motorsports of any typr this is the addon for you</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.AresMotorSports"
+	name="[COLORblue]A[/COLOR][COLORwhite]res MotorSports[/COLOR]"
+	version="1.0.2"
+	provider-name="Ares Project">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A Selection of motorsports/racing Content</summary>
+    <description lang="en">A Selection Of Mixed MotorSports content from free sources - Hope You Enjoy.. Poppa Smurf - Join us on the forum @ http://ares-project.uk</description>
     <platform>all</platform>
     <forum>n/a</forum>
     <website>n/a</website>

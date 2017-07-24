@@ -173,7 +173,8 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
   </extension>
 </addon>
 
-<addon id="plugin.video.wwe-on-demand" name="Wrestling On Demand" version="4.05" provider-name="@PBear90 and @jdth77">
+
+<addon id="plugin.video.wwe-on-demand" name="Wrestling On Demand" version="4.06" provider-name="@PBear90 and @_JDTH_">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="3.3.0"/>
@@ -188,7 +189,7 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">The Home Of Wrestling On Demand</summary>
-    <description lang="en">The Offical Home Of Wrestling On Demand | Huge Thanks To EchoCoder for making updates to the addon to my requirements. Thanks to Ares for hosting this addon.</description>
+    <description lang="en">The Offical Home Of Wrestling On Demand | Huge Thanks To Echo for making updates to the addon to my requirements. Thanks to Ares for hosting this addon.  Thanks to @xEdiTz for the awesome work on the artwork and of course, a huge thank you to those who use this addon as you help to keep it alive!</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -1281,7 +1282,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.ufc-finest" name="Planet MMA" version="2.9" provider-name="@DetectiveKode">
+<addon id="plugin.video.ufc-finest" name="Planet MMA" version="3.0" provider-name="@DetectiveKodi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="3.3.0"/>

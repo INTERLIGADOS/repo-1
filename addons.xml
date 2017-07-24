@@ -174,7 +174,7 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
 </addon>
 
 
-<addon id="plugin.video.wwe-on-demand" name="Wrestling On Demand" version="4.06" provider-name="@PBear90 and @_JDTH_">
+<addon id="plugin.video.wwe-on-demand" name="Wrestling On Demand" version="4.07" provider-name="Two Cool Guys">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="3.3.0"/>

@@ -1358,7 +1358,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     </extension>
 </addon>
 
-<addon id="plugin.video.motorreplays" name="[B][COLORorange]Motor Replays[/COLOR][/B]" version="2.3" provider-name="@Aleighty80">
+<addon id="plugin.video.motorreplays" name="[COLORorange]Motor Replays[/COLOR]" version="2.4" provider-name="@Aleighty80">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="3.3.0"/>
@@ -1373,7 +1373,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">[B][COLOR orange]Motor Replays[/COLOR][/B]</summary>
-    <description lang="en">The Official Home of MOTOR REPLAYS by @Aleighty80, If you like Motorsports of any typr this is the addon for you</description>
+    <description lang="en">The Official Home of MOTOR REPLAYS by @Aleighty80</description>
     <platform>all</platform>
   </extension>
 </addon>

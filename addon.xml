@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.AresTube"
+       name="AresTube"
+       version="0.0.5"
+       provider-name="Ares Project">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+    <import addon="script.module.addon.common" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  
+     <extension point="xbmc.addon.repository" name="AresRepo">
+        <info compressed="false">http://repo.ares-project.com/plugins/addons.xml</info>
+        <checksum>http://repo.ares-project.com/plugins/addons.xml.md5</checksum>
+        <datadir zip="true">http://repo.ares-project.com/plugins/</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">The Very Best Of Youtube</summary>
+    <summary>AresTube  - based livestreamspro 2.7.0 by Shani</summary>    
+    <description>We Thank You All! Remember to check out our other addons and visit the forum https://ares-project.uk</description>
+    <platform>all</platform>
+  </extension>
+</addon>

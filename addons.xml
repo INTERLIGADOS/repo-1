@@ -486,7 +486,7 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
 
 <addon id="plugin.video.AresTube"
        name="AresTube"
-       version="0.0.5"
+       version="0.0.6"
        provider-name="Ares Project">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>

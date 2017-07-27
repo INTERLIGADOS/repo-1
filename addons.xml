@@ -174,7 +174,7 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
 </addon>
 
 
-<addon id="plugin.video.wwe-on-demand" name="Wrestling On Demand" version="4.07" provider-name="Two Cool Guys">
+<addon id="plugin.video.wwe-on-demand" name="Wrestling On Demand" version="4.08" provider-name="@PBear90">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="3.3.0"/>
@@ -189,7 +189,7 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">The Home Of Wrestling On Demand</summary>
-    <description lang="en">The Offical Home Of Wrestling On Demand | Huge Thanks To Echo for making updates to the addon to my requirements. Thanks to Ares for hosting this addon.  Thanks to @xEdiTz for the awesome work on the artwork and of course, a huge thank you to those who use this addon as you help to keep it alive!</description>
+    <description lang="en">The Offical Home Of Wrestling On Demand | Huge Thanks To Echo for making updates to the addon to my requirements. Thanks to Ares for hosting this addon.  Thanks to Editz for the awesome work on the artwork and of course, a huge thank you to those who use this addon as you help to keep it alive!</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -1282,7 +1282,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.ufc-finest" name="Planet MMA" version="3.0" provider-name="@DetectiveKodi">
+<addon id="plugin.video.ufc-finest" name="Planet MMA" version="3.1" provider-name="DK">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="3.3.0"/>
@@ -1298,7 +1298,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Planet MMA</summary>
-    <description lang="en">Planet MMA - All your MMA needs. Big thanks to @xEdiTz for art work and I can't forget @EchoCoder for bringing my ideas alive when required.</description>
+    <description lang="en">Planet MMA - All your MMA needs.</description>
     <platform>all</platform>
   </extension>
 </addon>

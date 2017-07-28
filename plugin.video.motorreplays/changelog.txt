@@ -1,4 +1,10 @@
-v2.3
+v2.5 -
+Pop Up added for communication with users
+
+v2.4 -
+Server Change
+
+v2.3 -
 Home to Ares
 
 V2.2 -
@@ -11,7 +17,7 @@ V2.0 -
 Image changes
 
 V1.9 -
-Made a mistake
+Made a tva mistake
 
 V1.8 -
 Fixes

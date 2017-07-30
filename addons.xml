@@ -1143,7 +1143,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 
 <addon id="plugin.video.thepyramid"
        name="The Pyramid"
-       version="1.54"
+       version="1.55"
        provider-name="TomBraiderMovies">
   <requires>
 	<import addon="script.module.beautifulsoup" version="3.2.1"/>

@@ -4,3 +4,4 @@ V1.41 Added Mamahd Scrapers
 V1.51 Re Added Movie Search function
 V1.54 Change server
 V1.55 Fix Real Debrid Resolver Issues 
+v1.56 Updated Search Function And Mama HD Scrapers

@@ -1173,7 +1173,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.suprabox" name="Supra Box" version="0.8" provider-name="SUPRA">
+<addon id="plugin.video.suprabox" name="Supra Box" version="0.9" provider-name="SUPRA">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="3.3.0"/>
@@ -1197,6 +1197,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	<description>This is a Unofficial Plugin, Use it at your OWN Risk
 	             Supra Box Does NOT Host any Streams
 				 All Streams can be Found on NET
+                 Thanks to ALL u Know Who u R
     </description>
     <platform>all</platform>
   </extension>

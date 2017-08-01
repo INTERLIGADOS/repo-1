@@ -1173,7 +1173,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.suprabox" name="Supra Box" version="0.9" provider-name="SUPRA">
+<addon id="plugin.video.suprabox" name="Supra Box" version="1.00" provider-name="SUPRA">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="3.3.0"/>
